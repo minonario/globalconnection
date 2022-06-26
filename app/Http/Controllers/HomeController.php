@@ -41,6 +41,8 @@ class HomeController extends Controller
 
         $parameters = array(
         );
+        
+        // SECOND GIT
 
         $result = $client->request('POST', config('app.api_host') . '/ResumenTransactions', [
             'auth' => ['M0b1lP@yUs3R', '$%qasweWQ@!#'], 'body' => '{}'//json_encode($parameters)
